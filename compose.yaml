@@ -3,7 +3,7 @@ services:
     image: node:lts
     command: npm run dev -- --host
     ports:
-      - 3000:3000
+      - 4321:4321
     user: node
     volumes:
       - .:/workspace
