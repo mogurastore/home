@@ -11,7 +11,7 @@ import { SiNiconico } from "react-icons/si";
 
 function LinkList() {
   return (
-    <div className="max-w-sm mx-auto pt-20">
+    <div className="max-w-sm mx-auto pt-8">
       <div className="grid grid-cols-5 gap-4 text-4xl justify-items-center">
         <a href="https://x.com/MoguraStore" target="_blank" rel="noreferrer">
           <PiXLogoBold />
