@@ -3,6 +3,7 @@ import { CiMail } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
 import {
   PiPen,
+  PiShoppingBag,
   PiTwitchLogoBold,
   PiXLogoBold,
   PiYoutubeLogoBold,
@@ -22,6 +23,13 @@ function LinkList() {
           rel="noreferrer"
         >
           <BsBadgeVr />
+        </a>
+        <a
+          href="https://mogurastore.booth.pm/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <PiShoppingBag />
         </a>
         <div>
           <a href="https://mogura.dev" target="_blank" rel="noreferrer">
