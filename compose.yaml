@@ -1,7 +1,7 @@
 services:
   node:
     image: node:lts
-    command: npm run dev -- --host
+    command: sh -c "corepack enable && pnpm install && pnpm dev -- --host"
     ports:
       - 4321:4321
     user: node
